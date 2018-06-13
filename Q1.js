@@ -7,8 +7,8 @@
     const stringArray = arr.filter(number => typeof(number) === 'string');
 
     // sort smallest to largest
- 		numberArray.sort((a,b) => a-b); // sort smallest to largest
-    stringArray.sort((a,b) => a-b); // sort smallest to largest
+    numberArray.sort((a,b) => a-b); 
+    stringArray.sort((a,b) => a-b); 
 
     // group duplicates into array
     const numbers = groupArray(numberArray);
@@ -50,3 +50,7 @@
   const arr2 = [1, "2", "3", 2];
  answer(arr2);
  console.log(newArray);
+ const arr3 = [1,2,4,591,392,391,2,5,10,"2","3",2,1,1,1,20,20];
+ answer(arr3);
+ console.log(newArray);
+
