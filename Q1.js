@@ -7,8 +7,8 @@
     const stringArray = arr.filter(number => typeof(number) === 'string');
 
     // sort smallest to largest
- 	 	numberArray.sort((a,b) => a-b); // sort smallest to largest
-    stringArray.sort((a,b) => a-b); // sort smallest to largest
+    numberArray.sort((a,b) => a-b); 
+    stringArray.sort((a,b) => a-b); 
 
     // group duplicates into array
     const numbers = groupArray(numberArray);
