@@ -11,7 +11,7 @@ const answer = (arr,tar) => {
  return answerArr;
 }
 
-const array = [1,2,5];
+const array = [1,2,3];
 const tar = 4;
 answer(array,tar)
 
